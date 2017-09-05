@@ -9,7 +9,7 @@
 # Install
 
 ```shell
-$ npm install @umm/singleton_audiolistener
+$ npm install github:umm-projects/singleton_audiolistener.git
 ```
 
 # Usage
