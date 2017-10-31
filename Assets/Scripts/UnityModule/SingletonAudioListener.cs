@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace UnityModule {
 
@@ -8,7 +6,9 @@ namespace UnityModule {
 
         private void Start() {
             if (FindObjectOfType<AudioListener>() == default(AudioListener)) {
-                this.gameObject.AddComponent<AudioListener>();
+                GameObject go = new GameObject(this.GetType().Name);
+                go.AddComponent<AudioListener>();
+                DontDestroyOnLoad(go);
             }
         }
 
