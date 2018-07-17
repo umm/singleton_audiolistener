@@ -2,9 +2,9 @@
   "name": "@umm/singleton_audiolistener",
   "version": "1.2.0",
   "description": "Provide automatic installation AudioListener as Singleton",
-  "homepage": "https://github.com/umm-projects/singleton_audiolistener",
+  "homepage": "https://github.com/umm/singleton_audiolistener",
   "bugs": {
-    "url": "https://github.com/umm-projects/singleton_audiolistener/issues"
+    "url": "https://github.com/umm/singleton_audiolistener/issues"
   },
   "scripts": {
     "umm:init": "umm-init",
@@ -22,14 +22,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:umm-projects/singleton_audiolistener"
+    "url": "git@github.com:umm/singleton_audiolistener"
   },
   "files": [
     "Assets",
     "scripts"
   ],
   "dependencies": {
-    "@umm/scripts": "umm-projects/scripts#^1.0.0"
+    "@umm/scripts": "umm/scripts#^1.0.0"
   },
   "devDependencies": {},
   "optionalDependencies": {}
