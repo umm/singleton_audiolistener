@@ -8,6 +8,37 @@
 
 # Install
 
+### With Unity Package Manager
+
+```bash
+upm add package dev.upm-packages.singleton-audiolistener
+```
+
+Note: `upm` command is provided by [this repository](https://github.com/upm-packages/upm-cli).
+
+You can also edit `Packages/manifest.json` directly.
+
+```jsonc
+{
+  "dependencies": {
+    // (snip)
+    "dev.upm-packages.singleton-audiolistener": "[latest version]",
+    // (snip)
+  },
+  "scopedRegistries": [
+    {
+      "name": "Unofficial Unity Package Manager Registry",
+      "url": "https://upm-packages.dev",
+      "scopes": [
+        "dev.upm-packages"
+      ]
+    }
+  ]
+}
+```
+
+### Any other else (classical umm style)
+
 ```shell
 $ npm install github:umm/singleton_audiolistener.git
 ```
@@ -22,4 +53,3 @@ $ npm install github:umm/singleton_audiolistener.git
 Copyright (c) 2017 Tetsuya Mori
 
 Released under the MIT license, see [LICENSE.txt](LICENSE.txt)
-
